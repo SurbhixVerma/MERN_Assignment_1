@@ -1,0 +1,60 @@
+#shape{
+    border-style: hidden;
+    background-color: solid white;
+    padding: 20px;
+}
+
+.r1 {
+    width: 100px;
+    height: 50px;
+    border: solid green;
+    margin: 10px;
+    border-radius: 8px;
+  }
+.r2 {
+    width: 100px;
+    height: 50px;
+    border: solid green;
+    margin: 10px;
+    border-radius: 1px;
+  }
+.r3 {
+    width: 100px;
+    height: 50px;
+    border: solid green;
+    margin: 10px;
+    border-radius: 100px / 50px;
+  }
+
+.r7 {
+    width: 100px;
+    height: 50px;
+    border: solid green;
+    margin: 10px;
+    border-radius: 25px;
+  }
+
+.r9 {
+    width: 100px;
+    height: 50px;
+    border: solid green;
+    margin: 10px;
+    border-radius: 5px 25px 5px 25px;
+  }
+body{
+    margin: 10%;
+}
+.tab{
+    border-style: 'solid';
+    border-top: 1px solid black;
+border-bottom: 1px solid black;
+border-right: 1px solid black;
+background-color: #96D4D4;
+border-radius: 10px;
+}
+th, td{
+border-style: 'solid';
+border: 1px solid black;
+border-collapse: collapse;
+border-radius: 20px;
+}
